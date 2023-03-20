@@ -12,6 +12,10 @@ function save() {
   git stash save "$1"
 }
 
+function list() {
+  git stash list
+}
+
 function help() {
   echo "'git stash' wrapper using only stash names instead of indexes."
   echo "Reference:"
@@ -43,6 +47,8 @@ elif [ "$type" == "pop" ]; then
   pop "$name"
 elif [ "$type" == "save" ]; then
   save "$name"
+elif [ "$type" == "list" ]; then
+  save "$name"
 else
-  bash echo-error.sh "Invalid stash operation '$type'. Supported operations are: apply, pop, save."
+  bash echo-error.sh "Invalid stash operation '$type'. Supported operations are: 'save', 'list', 'apply', 'pop'."
 fi
