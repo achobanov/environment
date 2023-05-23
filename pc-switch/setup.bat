@@ -1,0 +1,1 @@
+copy /b/v/y "C:\environment\pc-switch\input-switch.ahk - Shortcut.lnk" "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
