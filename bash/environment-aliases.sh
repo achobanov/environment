@@ -1,5 +1,5 @@
 ﻿#
-export PATH="$HOME/source/environment/bash:$PATH"
+export PATH=/D/Source/environment/bash:$PATH
 
 alias gits="git-stash.sh"
 alias echo-em="echo-em.sh"
