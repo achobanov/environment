@@ -19,3 +19,5 @@ echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 
 del %SCRIPT%
+
+start RBTray.exe
