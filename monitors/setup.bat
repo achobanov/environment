@@ -16,3 +16,5 @@ echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 
 del %SCRIPT%
+
+start input-switch.ahk
