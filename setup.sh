@@ -1,4 +1,5 @@
-﻿./git/configure-git.sh
+﻿cd git
+./setup.sh
 
 cd duckdns-updater
 ./setup.bat
