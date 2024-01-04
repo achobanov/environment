@@ -3,7 +3,7 @@
 export PATH=$environment_path/:$PATH
 
 alias gits="git-stash.sh"
-alias echo-em="echo-em.sh"
-alias echo-error="echo-error.sh"
-alias echo-warning="echo-warning.sh"
+alias eem="echo-em.sh"
+alias err="echo-error.sh"
+alias warn="echo-warning.sh"
 alias cll="clear; ls -lah"
