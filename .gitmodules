@@ -1,6 +1,0 @@
-[submodule "duckdns-updater"]
-	path = duckdns-updater
-	url = https://github.com/achobanov/fork-duckdns-updater.git
-[submodule "secrets"]
-	path = secrets
-	url = https://github.com/achobanov/secrets
