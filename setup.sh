@@ -1,13 +1,6 @@
 ﻿#
 cd bash
-./environment-aliases.sh
-echo
-echo WARNING!! BASH SETUP DOES NOT WORK !! WARNING
-echo WARNING!! BASH SETUP DOES NOT WORK !! WARNING
-echo WARNING!! BASH SETUP DOES NOT WORK !! WARNING
-echo WARNING!! BASH SETUP DOES NOT WORK !! WARNING
-echo WARNING!! BASH SETUP DOES NOT WORK !! WARNING
-echo
+./setup.sh
 cd ..
 
 cd git
@@ -26,8 +19,3 @@ cd monitors
 ./setup.bat
 cd ..
 echo monitors input-switch setup complete!
-
-cd duckdns-updater
-./setup.bat
-echo DuckDNS-Updater setup complete!
-cd ..
