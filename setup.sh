@@ -19,3 +19,8 @@ cd monitors
 ./setup.bat
 cd ..
 echo monitors input-switch setup complete!
+
+cd duckdns-updater
+./setup.bat
+echo DuckDNS-Updater setup complete!
+cd ..
