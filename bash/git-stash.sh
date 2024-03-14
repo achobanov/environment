@@ -16,6 +16,14 @@ function list() {
   git stash list
 }
 
+function docker-build() {
+  git commit --allow-empty -m "cibuild" && git push
+}
+
+function docker-image() {
+  git commit --allow-empty -m "cibuild docbuild" && git push
+}
+
 function help() {
   echo "'git stash' wrapper using only stash names instead of indexes."
   echo "Reference:"
@@ -49,6 +57,10 @@ elif [ "$type" == "save" ]; then
   save "$name"
 elif [ "$type" == "list" ]; then
   save "$name"
+elif [ "$type" == "build" ]; then
+  docker-build
+elif [ "$type" == "img" ]; then
+  docker-image
 else
   bash echo-error.sh "Invalid stash operation '$type'. Supported operations are: 'save', 'list', 'apply', 'pop'."
 fi
