@@ -17,11 +17,11 @@ function list() {
 }
 
 function docker-build() {
-  git commit --allow-empty -m "cibuild" && git push
+  git commit --allow-empty -m "cibuild : no changes" && git push
 }
 
 function docker-image() {
-  git commit --allow-empty -m "cibuild docbuild" && git push
+  git commit --allow-empty -m "cibuild docbuild : no changes" && git push
 }
 
 function help() {
