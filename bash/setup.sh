@@ -9,7 +9,7 @@ echo -en '\n\n' | cat >> "$git_aliases_path"
 
 # Define environment_path variable used in aliases.sh
 echo "# environment aliases" >> "$git_aliases_path" 
-echo "environment_path=$PWD" >> "$git_aliases_path"
+echo -e "environment_path='$PWD'" >> "$git_aliases_path"
 
 # Add custom aliases, dos2unix removes BOM
 cat aliases.sh | dos2unix >> "$git_aliases_path"
