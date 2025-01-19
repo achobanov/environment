@@ -20,7 +20,7 @@ cd monitors
 cd ..
 echo monitors input-switch setup complete!
 
-cd duckdns-updater
-./setup.bat
-echo DuckDNS-Updater setup complete!
+cd azure
+./azure.sh
+echo 'Azure CLI installed!'
 cd ..
